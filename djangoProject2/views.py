@@ -12,7 +12,7 @@ def hello(request):
 
 def runoob(request):
     #views_name = "菜鸟教程"
-    views_list = ["菜鸟教程1", "菜鸟教程2", "菜鸟教程3","菜鸟教程5",,"菜鸟教程6"]
+    views_list = ["菜鸟教程1", "菜鸟教程2", "菜鸟教程3","菜鸟教程5","菜鸟教程6","菜鸟教程7"]
     return render(request, "runoob.html", {"hello": views_list})
     #context          = {}
     #context['hello'] = 'Hello World!'
